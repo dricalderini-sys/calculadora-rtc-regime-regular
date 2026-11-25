@@ -40,7 +40,7 @@ Exemplos de utilização da API estão em [docs/exemplos.md](docs/exemplos.md).
 
 ### Requisitos do Sistema
 
-- **Java**: versão 21 ou superior
+- **Java**: versão 25
 - **Maven**: não precisa ser instalado; o Maven Wrapper (`mvnw` / `mvnw.cmd`) baixa a versão necessária na primeira execução (requer internet)
 - **Git**: para clonar o repositório
 - **Sistema Operacional**: Windows, macOS ou Linux
@@ -49,10 +49,10 @@ Exemplos de utilização da API estão em [docs/exemplos.md](docs/exemplos.md).
 
 O projeto utiliza as seguintes tecnologias:
 
-- **Spring Boot 3.5.16**: Framework principal da aplicação web
+- **Spring Boot 4.1.2**: Framework principal da aplicação web
 - **SQLite**: Banco de dados embarcado
 - **Flyway**: Migração e versionamento do banco de dados
-- **OpenAPI / Springdoc 2.8.9**: Documentação interativa da API
+- **Springdoc OpenAPI 3.2.0**: Documentação interativa da API (especificação OpenAPI 3.1)
 
 ---
 
@@ -60,7 +60,7 @@ O projeto utiliza as seguintes tecnologias:
 
 ### 1. Pré-requisitos
 
-Certifique-se de ter instalado o Java 21 ou superior e verifique as versões:
+Certifique-se de ter instalado o Java 25 ou superior e verifique as versões:
 
 ```bash
 # Verificar versão do Java
